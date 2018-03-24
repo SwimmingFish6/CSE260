@@ -1,0 +1,36 @@
+Device computation time: 0.002089 sec. [23.939127 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@    63    32     32     10   0.00e+00     0.0  2.09e-03   23.9     N    N    Y    N
+Device computation time: 0.002030 sec. [25.825288 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@    64    32     32     10   0.00e+00     0.0  2.03e-03   25.8     N    N    Y    N
+Device computation time: 0.003480 sec. [15.783238 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@    65    32     32     10   0.00e+00     0.0  3.48e-03   15.8     N    N    Y    N
+Device computation time: 0.003653 sec. [112.146469 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   127    32     32     10   0.00e+00     0.0  3.65e-03  112.1     N    N    Y    N
+Device computation time: 0.003607 sec. [116.281222 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   128    32     32     10   0.00e+00     0.0  3.61e-03  116.3     N    N    Y    N
+Device computation time: 0.005129 sec. [83.706282 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   129    32     32     10   0.00e+00     0.0  5.13e-03   83.7     N    N    Y    N
+Device computation time: 0.012363 sec. [268.242865 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   255    32     32     10   0.00e+00     0.0  1.24e-02  268.2     N    N    Y    N
+Device computation time: 0.011889 sec. [282.231357 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   256    32     32     10   0.00e+00     0.0  1.19e-02  282.2     N    N    Y    N
+Device computation time: 0.015280 sec. [222.180416 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   257    32     32     10   0.00e+00     0.0  1.53e-02  222.2     N    N    Y    N
+Device computation time: 0.014038 sec. [380.208806 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   511    32     32      2   0.00e+00     0.0  1.40e-02  380.2     N    N    Y    N
+Device computation time: 0.013118 sec. [409.261884 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   512    32     32      2   0.00e+00     0.0  1.31e-02  409.3     N    N    Y    N
+Device computation time: 0.014026 sec. [380.525485 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   511    32     32      2   0.00e+00     0.0  1.40e-02  380.5     N    N    Y    N

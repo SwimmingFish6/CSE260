@@ -1,0 +1,886 @@
+compute-0-2.local
+1
+SLURM_CHECKPOINT_IMAGE_DIR=/home/tzosa/pa2-tzosa
+SLURM_NODELIST=compute-0-2
+SLURM_JOB_NAME=MMPY-CUDA
+MANPATH=/share/apps/gcc-4.8.4/man:/usr/share/man
+SLURMD_NODENAME=compute-0-2
+SLURM_TOPOLOGY_ADDR=compute-0-2
+HOSTNAME=compute-0-2
+SLURM_PRIO_PROCESS=0
+SLURM_NODE_ALIASES=(null)
+TERM=xterm-256color
+SHELL=/bin/bash
+HISTSIZE=1000
+TMPDIR=/tmp
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SSH_CLIENT=104.34.152.109 58042 22
+LIBRARY_PATH=/share/apps/gcc-4.8.4/lib64
+SBATCH_CPU_BIND_LIST=0x00010000
+QTDIR=/usr/lib64/qt-3.3
+SLURM_JOB_GPUS=1
+QTINC=/usr/lib64/qt-3.3/include
+ROCKSROOT=/opt/rocks/share/devel
+SSH_TTY=/dev/pts/4
+ANT_HOME=/opt/rocks
+SLURM_NNODES=1
+USER=tzosa
+CUDA_HOME=/usr/local/cuda
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lz=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.bz=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.rar=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+LD_LIBRARY_PATH=/share/apps/gcc-4.8.4/lib64:/share/apps/mpich2/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib:/opt/openmpi/lib:/opt/python/lib
+ROCKS_ROOT=/opt/rocks
+SLURM_JOBID=75331
+SLURM_NTASKS=1
+SLURM_TASKS_PER_NODE=1
+MAVEN_HOME=/opt/maven
+PATH=/share/apps/gcc-4.8.4/bin:/usr/bin/:/share/apps/coan/bin:/share/apps/mpich2/bin:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/maven/bin:/opt/rocks/bin:/opt/rocks/sbin:/usr/local/cuda/bin:/home/tzosa/bin
+MAIL=/var/spool/mail/tzosa
+SBATCH_CPU_BIND_VERBOSE=quiet
+SLURM_JOB_ID=75331
+SLURM_JOB_USER=tzosa
+PWD=/home/tzosa/pa2-tzosa
+F90=gfortran
+CUDA_VISIBLE_DEVICES=1
+JAVA_HOME=/usr/java/latest
+_LMFILES_=/usr/share/Modules/modulefiles/rocks-openmpi:/etc/modulefiles/gcc/4.8.4
+LANG=en_US.UTF-8
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+SLURM_JOB_UID=704
+LOADEDMODULES=rocks-openmpi:gcc/4.8.4
+SLURM_NODEID=0
+SLURM_SUBMIT_DIR=/home/tzosa/pa2-tzosa
+F77=gfortran
+SLURM_TASK_PID=4929
+SLURM_NPROCS=1
+SLURM_CPUS_ON_NODE=1
+SLURM_PROCID=0
+ENVIRONMENT=BATCH
+KRB5CCNAME=FILE:/tmp/krb5cc_704_aEHcGc
+HISTCONTROL=ignoredups
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+CXX=g++
+SLURM_JOB_NODELIST=compute-0-2
+HOME=/home/tzosa
+SHLVL=3
+SLURM_LOCALID=0
+SLURM_GET_USER_ENV=1
+SBATCH_CPU_BIND_TYPE=mask_cpu:
+SLURM_JOB_CPUS_PER_NODE=1
+SLURM_CLUSTER_NAME=sorken
+ROLLSROOT=/opt/rocks/share/devel/src/roll
+SLURM_GTIDS=0
+SLURM_SUBMIT_HOST=sorken.ucsd.edu
+MPIHOME=/opt/openmpi
+FC=gfortran
+SLURM_JOB_PARTITION=CLUSTER
+LOGNAME=tzosa
+PYTHONPATH=/share/apps/amber14/lib/python2.6/site-packages
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+GPU_DEVICE_ORDINAL=1
+SSH_CONNECTION=104.34.152.109 58042 132.239.95.222 22
+SLURM_JOB_NUM_NODES=1
+MODULESHOME=/usr/share/Modules
+MPI_HOME=/share/apps/mpich2
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SBATCH_CPU_BIND=quiet,mask_cpu:0x00010000
+CC=gcc
+AMBERHOME=/share/apps/amber14
+PUB=/share/public/cse260-wi18
+G_BROKEN_FILENAMES=1
+OMPI_MCA_btl=self,sm,tcp
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/usr/bin/printenv
+Mon Feb 19 16:07:01 PST 2018
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 63, tx: 32, ty: 32, gridX: 2, gridY: 2, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.001339 sec. [37.349471 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@    63    32     32     10   0.00e+00     0.0  1.34e-03   37.3     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 64, tx: 32, ty: 32, gridX: 2, gridY: 2, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.001229 sec. [42.658065 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@    64    32     32     10   0.00e+00     0.0  1.23e-03   42.7     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 65, tx: 32, ty: 32, gridX: 3, gridY: 3, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.002010 sec. [27.324416 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@    65    32     32     10   0.00e+00     0.0  2.01e-03   27.3     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 127, tx: 32, ty: 32, gridX: 4, gridY: 4, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.003562 sec. [115.006238 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   127    32     32     10   0.00e+00     0.0  3.56e-03  115.0     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 128, tx: 32, ty: 32, gridX: 4, gridY: 4, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.003499 sec. [119.870442 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   128    32     32     10   0.00e+00     0.0  3.50e-03  119.9     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 129, tx: 32, ty: 32, gridX: 5, gridY: 5, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.005047 sec. [85.070543 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   129    32     32     10   0.00e+00     0.0  5.05e-03   85.1     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 255, tx: 32, ty: 32, gridX: 8, gridY: 8, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.016480 sec. [201.227746 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   255    32     32     10   0.00e+00     0.0  1.65e-02  201.2     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 256, tx: 32, ty: 32, gridX: 8, gridY: 8, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.016114 sec. [208.231595 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   256    32     32     10   0.00e+00     0.0  1.61e-02  208.2     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 257, tx: 32, ty: 32, gridX: 9, gridY: 9, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.026815 sec. [126.604375 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   257    32     32     10   0.00e+00     0.0  2.68e-02  126.6     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 511, tx: 32, ty: 32, gridX: 16, gridY: 16, reps: 2, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.025006 sec. [213.440827 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   511    32     32      2   0.00e+00     0.0  2.50e-02  213.4     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 512, tx: 32, ty: 32, gridX: 16, gridY: 16, reps: 2, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.024505 sec. [219.087167 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   512    32     32      2   0.00e+00     0.0  2.45e-02  219.1     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 513, tx: 32, ty: 32, gridX: 17, gridY: 17, reps: 2, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.030992 sec. [174.245691 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   513    32     32      2   0.00e+00     0.0  3.10e-02  174.2     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 766, tx: 32, ty: 32, gridX: 24, gridY: 24, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.422255 sec. [212.883236 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   766    32     32     10   0.00e+00     0.0  4.22e-01  212.9     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 767, tx: 32, ty: 32, gridX: 24, gridY: 24, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.424286 sec. [212.695107 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   767    32     32     10   0.00e+00     0.0  4.24e-01  212.7     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 768, tx: 32, ty: 32, gridX: 24, gridY: 24, reps: 10, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.411449 sec. [220.190051 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   768    32     32     10   0.00e+00     0.0  4.11e-01  220.2     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 1023, tx: 32, ty: 32, gridX: 32, gridY: 32, reps: 2, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.195013 sec. [219.595662 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  1023    32     32      2   0.00e+00     0.0  1.95e-01  219.6     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 1024, tx: 32, ty: 32, gridX: 32, gridY: 32, reps: 2, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.190038 sec. [226.005750 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  1024    32     32      2   0.00e+00     0.0  1.90e-01  226.0     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 1025, tx: 32, ty: 32, gridX: 33, gridY: 33, reps: 2, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+
+Device computation time: 0.218616 sec. [197.037835 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  1025    32     32      2   0.00e+00     0.0  2.19e-01  197.0     N    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 2047, tx: 32, ty: 32, gridX: 64, gridY: 64, reps: 2, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+Doing host computation for comparison
+
+
+Host computation time: 261.953149 sec. [0.130975 gflops]
+Verfication of host result not supported for random matrices
+Device computation time: 1.652497 sec. [207.621740 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  2047    32     32      2   2.62e+02     0.1  1.65e+00  207.6     Y    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 2048, tx: 32, ty: 32, gridX: 64, gridY: 64, reps: 2, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+Doing host computation for comparison
+
+
+Host computation time: 341.745726 sec. [0.100542 gflops]
+Verfication of host result not supported for random matrices
+Device computation time: 1.602218 sec. [214.451094 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  2048    32     32      2   3.42e+02     0.1  1.60e+00  214.5     Y    N    Y    N
+
+*** Answers verified
+
+
+ *** The thread block size is statically compiled.
+     Ignoring the X thread geometry command-line setting
+ *** The thread block size is statically compiled.
+      Ignoring the Y thread geometry command-line setting
+# devices: 1
+
+Device is a Tesla K80, capability: 3.7
+Clock speed: 823.500000 MHz
+# cores: 13
+
+Global memory: 11.249573GB
+Memory Clock Rate (MHz): 2505.000000
+Memory Bus Width (bits): 384
+Peak Memory Bandwidth (GB/s): 240.480000
+L2 Cache size: (KB): 1536.000000
+ECC Enabled
+Device can concurrently copy memory between host and device in both directions
+     and execute a kernel at the same time
+Device shares a unified address space with the host
+
+ --------- 
+CUDA Driver version: 7000, runtime version: 7000
+
+n: 2049, tx: 32, ty: 32, gridX: 65, gridY: 65, reps: 2, epsilon: 1e-06
+
+Using Double precision arithmetic
+
+Using random inputs
+Doing host computation for comparison
+
+
+Host computation time: 233.343227 sec. [0.147466 gflops]
+Verfication of host result not supported for random matrices
+Device computation time: 1.749838 sec. [196.647303 gflops]
+
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  2049    32     32      2   2.33e+02     0.1  1.75e+00  196.6     Y    N    Y    N
+
+*** Answers verified
+
+
+>>> Job Ends
+Mon Feb 19 16:38:29 PST 2018

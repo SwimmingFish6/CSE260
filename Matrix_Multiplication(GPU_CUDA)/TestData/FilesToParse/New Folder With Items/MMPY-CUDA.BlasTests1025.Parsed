@@ -1,0 +1,54 @@
+Device computation time: 0.002021 sec. [24.746888 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@    63    32     32     10   0.00e+00     0.0  2.02e-03   24.7     N    N    Y    N
+Device computation time: 0.001944 sec. [26.968644 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@    64    32     32     10   0.00e+00     0.0  1.94e-03   27.0     N    N    Y    N
+Device computation time: 0.003326 sec. [16.512949 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@    65    32     32     10   0.00e+00     0.0  3.33e-03   16.5     N    N    Y    N
+Device computation time: 0.003529 sec. [116.094061 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   127    32     32     10   0.00e+00     0.0  3.53e-03  116.1     N    N    Y    N
+Device computation time: 0.003466 sec. [121.008296 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   128    32     32     10   0.00e+00     0.0  3.47e-03  121.0     N    N    Y    N
+Device computation time: 0.004886 sec. [87.868315 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   129    32     32     10   0.00e+00     0.0  4.89e-03   87.9     N    N    Y    N
+Device computation time: 0.011807 sec. [280.874470 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   255    32     32     10   0.00e+00     0.0  1.18e-02  280.9     N    N    Y    N
+Device computation time: 0.011398 sec. [294.386781 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   256    32     32     10   0.00e+00     0.0  1.14e-02  294.4     N    N    Y    N
+Device computation time: 0.014607 sec. [232.417991 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   257    32     32     10   0.00e+00     0.0  1.46e-02  232.4     N    N    Y    N
+Device computation time: 0.011880 sec. [449.271780 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   511    32     32      2   0.00e+00     0.0  1.19e-02  449.3     N    N    Y    N
+Device computation time: 0.011138 sec. [482.018969 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   512    32     32      2   0.00e+00     0.0  1.11e-02  482.0     N    N    Y    N
+Device computation time: 0.011639 sec. [458.566805 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   511    32     32      2   0.00e+00     0.0  1.16e-02  458.6     N    N    Y    N
+Device computation time: 0.200748 sec. [447.779940 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   766    32     32     10   0.00e+00     0.0  2.01e-01  447.8     N    N    Y    N
+Device computation time: 0.201766 sec. [447.268253 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   767    32     32     10   0.00e+00     0.0  2.02e-01  447.3     N    N    Y    N
+Device computation time: 0.191762 sec. [472.444907 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@   768    32     32     10   0.00e+00     0.0  1.92e-01  472.4     N    N    Y    N
+Device computation time: 0.090881 sec. [471.209907 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  1023    32     32      2   0.00e+00     0.0  9.09e-02  471.2     N    N    Y    N
+Device computation time: 0.086451 sec. [496.809133 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  1024    32     32      2   0.00e+00     0.0  8.65e-02  496.8     N    N    Y    N
+Device computation time: 0.107249 sec. [401.641193 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  1025    32     32      2   0.00e+00     0.0  1.07e-01  401.6     N    N    Y    N

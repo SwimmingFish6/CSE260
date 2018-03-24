@@ -1,0 +1,12 @@
+Host computation time: 233.838348 sec. [0.146723 gflops]
+Device computation time: 0.744037 sec. [461.125392 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  2047    32     32      2   2.34e+02     0.1  7.44e-01  461.1     Y    N    Y    N
+Host computation time: 386.690477 sec. [0.088856 gflops]
+Device computation time: 0.704254 sec. [487.888333 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  2048    32     32      2   3.87e+02     0.1  7.04e-01  487.9     Y    N    Y    N
+Host computation time: 233.640617 sec. [0.147278 gflops]
+Device computation time: 0.807362 sec. [426.203998 gflops]
+     N     TX     TY   Reps       t_h     GF_h       t_d   GF_d   Host?  L1? Rnd?  BT?
+@  2049    32     32      2   2.34e+02     0.1  8.07e-01  426.2     Y    N    Y    N

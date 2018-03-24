@@ -1,0 +1,238 @@
+#!/bin/bash
+# #SBATCH -D /home/my_user_my_dir/
+# Job name,  will be displayed on the showq command
+#SBATCH -J MMPY-CUDA
+# Filename for standard output 
+# At end of job, it is in the directory from which sbatch was invoked
+#SBATCH -o MMPY-CUDA.o%j
+#SBATCH -e MMPY-CUDA.e%j
+#SBATCH --get-user-env
+#SBATCH --ntasks=1
+#SBATCH --gres=gpu:1
+
+#  The requested wall clock job time limit in HH:MM:SS
+#  Your job will end when it exceeds this time limit
+#SBATCH --time=00:90:00
+
+#In case there are problems with a node echo the hostname and GPU id to the log file
+hostname
+echo $CUDA_VISIBLE_DEVICES
+
+#COMMANDS GO HERE
+
+
+
+# Print out the environment
+printenv
+
+
+date
+
+# Run
+#./mmpy -n 512 -x 1 -y 512 -r 10
+#./mmpy -n 512 -x 1 -y 512 -r 100
+#./mmpy -n 1024 -x 1 -y 512 -r 10
+#./mmpy -n 512 -x 1 -y 512 -r 2 -b
+
+./mmpy -n 63 -x 1 -y 512 -r 10
+ ./mmpy -n 64 -x 1 -y 512 -r 10
+ ./mmpy -n 65 -x 1 -y 512 -r 10
+
+ ./mmpy -n 95 -x 1 -y 512 -r 10
+ ./mmpy -n 96 -x 1 -y 512 -r 10
+ ./mmpy -n 97 -x 1 -y 512 -r 10
+
+ ./mmpy -n 127 -x 1 -y 512 -r 10
+ ./mmpy -n 128 -x 1 -y 512 -r 10
+ ./mmpy -n 129 -x 1 -y 512 -r 10
+
+ ./mmpy -n 159 -x 1 -y 512 -r 10
+ ./mmpy -n 160 -x 1 -y 512 -r 10
+ ./mmpy -n 161 -x 1 -y 512 -r 10
+
+ ./mmpy -n 191 -x 1 -y 512 -r 10
+ ./mmpy -n 192 -x 1 -y 512 -r 10
+ ./mmpy -n 193 -x 1 -y 512 -r 10
+
+ ./mmpy -n 223 -x 1 -y 512 -r 10
+ ./mmpy -n 224 -x 1 -y 512 -r 10
+ ./mmpy -n 225 -x 1 -y 512 -r 10
+
+ ./mmpy -n 255 -x 1 -y 512 -r 10
+ ./mmpy -n 256 -x 1 -y 512 -r 10
+ ./mmpy -n 257 -x 1 -y 512 -r 10
+
+ ./mmpy -n 287 -x 1 -y 512 -r 10
+ ./mmpy -n 288 -x 1 -y 512 -r 10
+ ./mmpy -n 289 -x 1 -y 512 -r 10
+ ./mmpy -n 319 -x 1 -y 512 -r 10
+ ./mmpy -n 320 -x 1 -y 512 -r 10
+ ./mmpy -n 321 -x 1 -y 512 -r 10
+ ./mmpy -n 351 -x 1 -y 512 -r 10
+ ./mmpy -n 352 -x 1 -y 512 -r 10
+ ./mmpy -n 353 -x 1 -y 512 -r 10
+ ./mmpy -n 383 -x 1 -y 512 -r 10
+ ./mmpy -n 384 -x 1 -y 512 -r 10
+ ./mmpy -n 385 -x 1 -y 512 -r 10
+ ./mmpy -n 415 -x 1 -y 512 -r 10
+ ./mmpy -n 416 -x 1 -y 512 -r 10
+ ./mmpy -n 417 -x 1 -y 512 -r 10
+ ./mmpy -n 447 -x 1 -y 512 -r 10
+ ./mmpy -n 448 -x 1 -y 512 -r 10
+ ./mmpy -n 449 -x 1 -y 512 -r 10
+ ./mmpy -n 479 -x 1 -y 512 -r 10
+ ./mmpy -n 480 -x 1 -y 512 -r 10
+ ./mmpy -n 481 -x 1 -y 512 -r 10
+ ./mmpy -n 511 -x 1 -y 512 -r 10
+ ./mmpy -n 512 -x 1 -y 512 -r 10
+ ./mmpy -n 513 -x 1 -y 512 -r 10
+ ./mmpy -n 543 -x 1 -y 512 -r 10
+ ./mmpy -n 544 -x 1 -y 512 -r 10
+ ./mmpy -n 545 -x 1 -y 512 -r 10
+ ./mmpy -n 575 -x 1 -y 512 -r 10
+ ./mmpy -n 576 -x 1 -y 512 -r 10
+ ./mmpy -n 577 -x 1 -y 512 -r 10
+ ./mmpy -n 607 -x 1 -y 512 -r 10
+ ./mmpy -n 608 -x 1 -y 512 -r 10
+ ./mmpy -n 609 -x 1 -y 512 -r 10
+ ./mmpy -n 639 -x 1 -y 512 -r 10
+ ./mmpy -n 640 -x 1 -y 512 -r 10
+ ./mmpy -n 641 -x 1 -y 512 -r 10
+ ./mmpy -n 671 -x 1 -y 512 -r 10
+ ./mmpy -n 672 -x 1 -y 512 -r 10
+ ./mmpy -n 673 -x 1 -y 512 -r 10
+ ./mmpy -n 703 -x 1 -y 512 -r 10
+ ./mmpy -n 704 -x 1 -y 512 -r 10
+ ./mmpy -n 705 -x 1 -y 512 -r 10
+ ./mmpy -n 735 -x 1 -y 512 -r 10
+ ./mmpy -n 736 -x 1 -y 512 -r 10
+ ./mmpy -n 737 -x 1 -y 512 -r 10
+ ./mmpy -n 767 -x 1 -y 512 -r 10
+ ./mmpy -n 768 -x 1 -y 512 -r 10
+ ./mmpy -n 769 -x 1 -y 512 -r 10
+ ./mmpy -n 799 -x 1 -y 512 -r 10
+ ./mmpy -n 800 -x 1 -y 512 -r 10
+ ./mmpy -n 801 -x 1 -y 512 -r 10
+ ./mmpy -n 831 -x 1 -y 512 -r 10
+ ./mmpy -n 832 -x 1 -y 512 -r 10
+ ./mmpy -n 833 -x 1 -y 512 -r 10
+ ./mmpy -n 863 -x 1 -y 512 -r 10
+ ./mmpy -n 864 -x 1 -y 512 -r 10
+ ./mmpy -n 865 -x 1 -y 512 -r 10
+ ./mmpy -n 895 -x 1 -y 512 -r 10
+ ./mmpy -n 896 -x 1 -y 512 -r 10
+ ./mmpy -n 897 -x 1 -y 512 -r 10
+ ./mmpy -n 927 -x 1 -y 512 -r 10
+ ./mmpy -n 928 -x 1 -y 512 -r 10
+ ./mmpy -n 929 -x 1 -y 512 -r 10
+ ./mmpy -n 959 -x 1 -y 512 -r 10
+ ./mmpy -n 960 -x 1 -y 512 -r 10
+ ./mmpy -n 961 -x 1 -y 512 -r 10
+ ./mmpy -n 991 -x 1 -y 512 -r 10
+ ./mmpy -n 992 -x 1 -y 512 -r 10
+ ./mmpy -n 993 -x 1 -y 512 -r 10
+
+ ./mmpy -n 1023 -x 1 -y 512 -r 10
+ ./mmpy -n 1024 -x 1 -y 512 -r 10
+ ./mmpy -n 1025 -x 1 -y 512 -r 10
+
+ ./mmpy -n 1055 -x 1 -y 512 -r 10
+ ./mmpy -n 1056 -x 1 -y 512 -r 10
+ ./mmpy -n 1057 -x 1 -y 512 -r 10
+ ./mmpy -n 1087 -x 1 -y 512 -r 10
+ ./mmpy -n 1088 -x 1 -y 512 -r 10
+ ./mmpy -n 1089 -x 1 -y 512 -r 10
+ ./mmpy -n 1119 -x 1 -y 512 -r 10
+ ./mmpy -n 1120 -x 1 -y 512 -r 10
+ ./mmpy -n 1121 -x 1 -y 512 -r 10
+ ./mmpy -n 1151 -x 1 -y 512 -r 10
+ ./mmpy -n 1152 -x 1 -y 512 -r 10
+ ./mmpy -n 1153 -x 1 -y 512 -r 10
+ ./mmpy -n 1183 -x 1 -y 512 -r 10
+ ./mmpy -n 1184 -x 1 -y 512 -r 10
+ ./mmpy -n 1185 -x 1 -y 512 -r 10
+ ./mmpy -n 1215 -x 1 -y 512 -r 10
+ ./mmpy -n 1216 -x 1 -y 512 -r 10
+ ./mmpy -n 1217 -x 1 -y 512 -r 10
+ ./mmpy -n 1247 -x 1 -y 512 -r 10
+ ./mmpy -n 1248 -x 1 -y 512 -r 10
+ ./mmpy -n 1249 -x 1 -y 512 -r 10
+ ./mmpy -n 1279 -x 1 -y 512 -r 10
+ ./mmpy -n 1280 -x 1 -y 512 -r 10
+ ./mmpy -n 1281 -x 1 -y 512 -r 10
+ ./mmpy -n 1311 -x 1 -y 512 -r 10
+ ./mmpy -n 1312 -x 1 -y 512 -r 10
+ ./mmpy -n 1313 -x 1 -y 512 -r 10
+ ./mmpy -n 1343 -x 1 -y 512 -r 10
+ ./mmpy -n 1344 -x 1 -y 512 -r 10
+ ./mmpy -n 1345 -x 1 -y 512 -r 10
+ ./mmpy -n 1375 -x 1 -y 512 -r 10
+ ./mmpy -n 1376 -x 1 -y 512 -r 10
+ ./mmpy -n 1377 -x 1 -y 512 -r 10
+ ./mmpy -n 1407 -x 1 -y 512 -r 10
+ ./mmpy -n 1408 -x 1 -y 512 -r 10
+ ./mmpy -n 1409 -x 1 -y 512 -r 10
+ ./mmpy -n 1439 -x 1 -y 512 -r 10
+ ./mmpy -n 1440 -x 1 -y 512 -r 10
+ ./mmpy -n 1441 -x 1 -y 512 -r 10
+ ./mmpy -n 1471 -x 1 -y 512 -r 10
+ ./mmpy -n 1472 -x 1 -y 512 -r 10
+ ./mmpy -n 1473 -x 1 -y 512 -r 10
+ ./mmpy -n 1503 -x 1 -y 512 -r 10
+ ./mmpy -n 1504 -x 1 -y 512 -r 10
+ ./mmpy -n 1505 -x 1 -y 512 -r 10
+ ./mmpy -n 1535 -x 1 -y 512 -r 10
+ ./mmpy -n 1536 -x 1 -y 512 -r 10
+ ./mmpy -n 1537 -x 1 -y 512 -r 10
+ ./mmpy -n 1567 -x 1 -y 512 -r 10
+ ./mmpy -n 1568 -x 1 -y 512 -r 10
+ ./mmpy -n 1569 -x 1 -y 512 -r 10
+ ./mmpy -n 1599 -x 1 -y 512 -r 10
+ ./mmpy -n 1600 -x 1 -y 512 -r 10
+ ./mmpy -n 1601 -x 1 -y 512 -r 10
+ ./mmpy -n 1631 -x 1 -y 512 -r 10
+ ./mmpy -n 1632 -x 1 -y 512 -r 10
+ ./mmpy -n 1633 -x 1 -y 512 -r 10
+ ./mmpy -n 1663 -x 1 -y 512 -r 10
+ ./mmpy -n 1664 -x 1 -y 512 -r 10
+ ./mmpy -n 1665 -x 1 -y 512 -r 10
+ ./mmpy -n 1695 -x 1 -y 512 -r 10
+ ./mmpy -n 1696 -x 1 -y 512 -r 10
+ ./mmpy -n 1697 -x 1 -y 512 -r 10
+ ./mmpy -n 1727 -x 1 -y 512 -r 10
+ ./mmpy -n 1728 -x 1 -y 512 -r 10
+ ./mmpy -n 1729 -x 1 -y 512 -r 10
+ ./mmpy -n 1759 -x 1 -y 512 -r 10
+ ./mmpy -n 1760 -x 1 -y 512 -r 10
+ ./mmpy -n 1761 -x 1 -y 512 -r 10
+ ./mmpy -n 1791 -x 1 -y 512 -r 10
+ ./mmpy -n 1792 -x 1 -y 512 -r 10
+ ./mmpy -n 1793 -x 1 -y 512 -r 10
+ ./mmpy -n 1823 -x 1 -y 512 -r 10
+ ./mmpy -n 1824 -x 1 -y 512 -r 10
+ ./mmpy -n 1825 -x 1 -y 512 -r 10
+ ./mmpy -n 1855 -x 1 -y 512 -r 10
+ ./mmpy -n 1856 -x 1 -y 512 -r 10
+ ./mmpy -n 1857 -x 1 -y 512 -r 10
+ ./mmpy -n 1887 -x 1 -y 512 -r 10
+ ./mmpy -n 1888 -x 1 -y 512 -r 10
+ ./mmpy -n 1889 -x 1 -y 512 -r 10
+ ./mmpy -n 1919 -x 1 -y 512 -r 10
+ ./mmpy -n 1920 -x 1 -y 512 -r 10
+ ./mmpy -n 1921 -x 1 -y 512 -r 10
+ ./mmpy -n 1951 -x 1 -y 512 -r 10
+ ./mmpy -n 1952 -x 1 -y 512 -r 10
+ ./mmpy -n 1953 -x 1 -y 512 -r 10
+ ./mmpy -n 1983 -x 1 -y 512 -r 10
+ ./mmpy -n 1984 -x 1 -y 512 -r 10
+ ./mmpy -n 1985 -x 1 -y 512 -r 10
+ ./mmpy -n 2015 -x 1 -y 512 -r 10
+ ./mmpy -n 2016 -x 1 -y 512 -r 10
+ ./mmpy -n 2017 -x 1 -y 512 -r 10
+ ./mmpy -n 2047 -x 1 -y 512 -r 10
+ ./mmpy -n 2048 -x 1 -y 512 -r 10
+ ./mmpy -n 2049 -x 1 -y 512 -r 10
+
+echo ">>> Job Ends"
+
+date
