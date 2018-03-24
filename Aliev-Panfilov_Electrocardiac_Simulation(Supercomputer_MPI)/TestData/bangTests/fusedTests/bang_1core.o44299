@@ -1,0 +1,153 @@
+
+ *** Current working directory
+/home/tzosa/pa3-pa3-tzosa
+
+ *** Compiler
+Using built-in specs.
+COLLECT_GCC=/share/apps/opt/gcc-4.8.4/bin/gcc
+COLLECT_LTO_WRAPPER=/share/apps/opt/gcc-4.8.4/libexec/gcc/x86_64-unknown-linux-gnu/4.8.4/lto-wrapper
+Target: x86_64-unknown-linux-gnu
+Configured with: ../configure --prefix=/share/apps/opt/gcc-4.8.4 --with-mpfr=/share/apps/opt/gcc-4.8.4 --with-gmp=/share/apps/opt/gcc-4.8.4 --enable-languages=c,c++,fortran
+Thread model: posix
+gcc version 4.8.4 (GCC) 
+
+ *** Environment
+SET_HOST_TYPE= -x 
+PDSHROOT=/opt/pdsh
+MANPATH=/opt/openmpi/share/man:/usr/share/man:/opt/gridengine/man:/opt/openmpi/share/man:/usr/share/man:/opt/gridengine/man:/opt/openmpi/share/man:/usr/share/man/en:/usr/share/man:/opt/gridengine/man:/share/apps/opt/gcc-4.8.4/share/man:/usr/local/share/man:/opt/rocks/man:/usr/java/latest/man:/opt/ganglia/man:/opt/sun-ct/man
+SSH_AGENT_PID=28352
+HOSTNAME=compute-0-34.local
+SGE_TASK_STEPSIZE=undefined
+SGE_INFOTEXT_MAX_COLUMN=5000
+SHELL=/bin/bash
+TERM=xterm
+NHOSTS=1
+HISTSIZE=1000
+ECLIPSE_HOME=/opt/eclipse
+SGE_O_WORKDIR=/home/tzosa/pa3-pa3-tzosa
+TMPDIR=/tmp/44299.1.debug.q
+SSH_CLIENT=173.244.48.28 50138 22
+SGE_O_HOME=/home/tzosa
+SGE_ARCH=linux-x64
+SGE_CELL=default
+MPICH_PROCESS_GROUP=no
+QTDIR=/usr/lib64/qt-3.3
+QTINC=/usr/lib64/qt-3.3/include
+RESTARTED=0
+SSH_TTY=/dev/pts/30
+ANT_HOME=/opt/rocks
+ARC=linux-x64
+USER=tzosa
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+LD_LIBRARY_PATH=/opt/gridengine/lib/linux-x64:/share/apps/opt/gcc-4.8.4/lib:/share/apps/opt/gcc-4.8.4/lib64:/opt/gridengine/lib/linux-x64:/opt/openmpi/lib:/opt/python/lib
+SGE_TASK_LAST=undefined
+QUEUE=debug.q
+ROCKS_ROOT=/opt/rocks
+SSH_AUTH_SOCK=/tmp/ssh-cpnzN28351/agent.28351
+SGE_TASK_ID=undefined
+SGE_BINARY_PATH=/opt/gridengine/bin/linux-x64
+MAIL=/var/spool/mail/tzosa
+PATH=/share/class/public/cse260-wi18/bin:/tmp/44299.1.debug.q:/share/class/public/cse260-wi18/bin:/share/apps/opt/gcc-4.8.4/bin:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/eclipse:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/gridengine/bin/linux-x64:/share/apps/bin:/share/apps/sbin
+RUNLEVEL=5
+SGE_STDERR_PATH=/home/tzosa/pa3-pa3-tzosa/bang_1core.o44299
+PWD=/home/tzosa/pa3-pa3-tzosa
+JOB=rc
+JAVA_HOME=/usr/java/latest
+_LMFILES_=/usr/share/Modules/modulefiles/rocks-openmpi:/usr/share/Modules/modulefiles/rocks-openmpi_openib:/etc/modulefiles/gcc-4.8.4
+SGE_STDOUT_PATH=/home/tzosa/pa3-pa3-tzosa/bang_1core.o44299
+SGE_ACCOUNT=sge
+SGE_RSH_COMMAND=/usr/bin/ssh
+SGE_EXECD_PORT=537
+RESULT=ok
+LANG=en_US.iso885915
+JOB_SCRIPT=/opt/gridengine/default/spool/compute-0-34/job_scripts/44299
+JOB_NAME=bang_1core
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+SGE_QMASTER_PORT=536
+LOADEDMODULES=rocks-openmpi:rocks-openmpi_openib:gcc-4.8.4
+SGE_NOMSG=1
+SGE_ROOT=/opt/gridengine
+REQNAME=bang_1core
+SGE_JOB_SPOOL_DIR=/opt/gridengine/default/spool/compute-0-34/active_jobs/44299.1
+ENVIRONMENT=BATCH
+KRB5CCNAME=FILE:/tmp/krb5cc_3101_qwsrQp
+HISTCONTROL=ignoredups
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+PE_HOSTFILE=/opt/gridengine/default/spool/compute-0-34/active_jobs/44299.1/pe_hostfile
+HOME=/home/tzosa
+SHLVL=2
+SGE_CWD_PATH=/home/tzosa/pa3-pa3-tzosa
+NQUEUES=1
+SGE_O_LOGNAME=tzosa
+SGE_O_MAIL=/var/spool/mail/tzosa
+MPIHOME=/opt/openmpi
+UPSTART_INSTANCE=
+TMP=/tmp/44299.1.debug.q
+JOB_ID=44299
+LOGNAME=tzosa
+UPSTART_EVENTS=stopping
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+PE=orte
+SSH_CONNECTION=173.244.48.28 50138 132.239.145.212 22
+SGE_TASK_FIRST=undefined
+MODULESHOME=/usr/share/Modules
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+SGE_O_PATH=/share/class/public/cse260-wi18/bin:/share/apps/opt/gcc-4.8.4/bin:/opt/openmpi/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/eclipse:/opt/ganglia/bin:/opt/ganglia/sbin:/usr/java/latest/bin:/opt/pdsh/bin:/opt/rocks/bin:/opt/rocks/sbin:/opt/gridengine/bin/linux-x64:/share/apps/bin:/share/apps/sbin
+UPSTART_JOB=rocks-post
+INSTANCE=
+SGE_O_HOST=ccom-bang-login
+SGE_O_SHELL=/bin/bash
+SGE_CLUSTER_NAME=ccom-bang
+REQUEST=bang_1core
+NSLOTS=1
+PUB=/share/class/public/cse260-wi18
+SGE_STDIN_PATH=/dev/null
+G_BROKEN_FILENAMES=1
+OMPI_MCA_btl=openib,self,sm
+SCRATCH=/scratch/tzosa
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/usr/bin/printenv
+
+>>> Job Starts
+Tue Mar 13 13:39:56 PDT 2018
+
+[Simulation begins] Tue Mar 13 13:39:56 2018
+
+dt= 0.0639292, # iters = 400
+m x n = 150 x 150
+processor geometry: 1 x 1
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Tue Mar 13 13:39:56 2018
+
+End at iteration 399
+Max norm: 9.91872e-01, L2norm: 6.05098e-01
+Running Time: 0.203034 sec. [1.24 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 150 150    1 1      Y     400  0.203 1.241    9.91872e-01 6.05098e-01
+  -----
+Tue Mar 13 13:39:56 PDT 2018
+>>> __APF-REF__
+
+[Simulation begins] Tue Mar 13 13:39:56 2018
+
+dt= 0.0639292, # iters = 400
+m x n = 150 x 150
+processor geometry: 1 x 1
+
+Compiled with MPI ENABLED
+
+[Simulation completes] Tue Mar 13 13:39:57 2018
+
+End at iteration 399
+Max norm: 9.91872e-01, L2norm: 6.05098e-01
+Running Time: 0.551261 sec. [0.457 GFlop/sec]
+
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 150 150    1 1      Y     400  0.5513 0.4571    9.91872e-01 6.05098e-01
+  -----
+>>> Job Ends

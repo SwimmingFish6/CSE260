@@ -1,0 +1,20 @@
+Running Time: 1.86855 sec. [97.1 GFlop/sec]
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    1 24      Y     2000  1.869 97.1    9.96750e-01 6.48606e-01
+Running Time: 1.76012 sec. [103 GFlop/sec]
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    2 12      Y     2000  1.76 103.1    9.96750e-01 6.48606e-01
+Running Time: 1.78217 sec. [102 GFlop/sec]
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    4 6      Y     2000  1.782 101.8    9.96750e-01 6.48606e-01
+Running Time: 1.71831 sec. [106 GFlop/sec]
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    6 4      Y     2000  1.718 105.6    9.96750e-01 6.48606e-01
+Running Time: 1.75532 sec. [103 GFlop/sec]
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    8 3      Y     2000  1.755 103.4    9.96750e-01 6.48606e-01
+Running Time: 1.86507 sec. [97.3 GFlop/sec]
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2
+@ 1800 1800    12 2      Y     2000  1.865 97.28    9.96750e-01 6.48606e-01
+Running Time: 1.94427 sec. [93.3 GFlop/sec]
+   M x N   px x py Comm?   #iter  T_p, Gflops        Linf, L2

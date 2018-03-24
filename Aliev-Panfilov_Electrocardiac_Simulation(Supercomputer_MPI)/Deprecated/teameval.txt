@@ -1,0 +1,58 @@
+                    CSE 260, Parallel Computation
+                            (Winter 2017)
+           Department of Computer Science and Engineering 	
+                 University of California, San Diego 	
+
+
+               Team Self Evaluation Form, Assignment #3
+
+Each team must submit one copy of this self evaluation form. 
+The members of each team should discuss how they
+worked together and what to write for the evaluation.
+If you worked alone leave column B blank
+
+(1) List the names of your team members:
+
+A: Teofilo Zosa
+
+ 
+B:
+
+ 
+ 
+(2) Estimate how much time each team member devoted to this project, in HOURS.
+
+  	                        A 	       B
+meetings 	  	  	        0
+coding 	  	  	            53
+writeup 	  	  	        12
+planning (alone) 	  	  	 3
+total (including meetings) 	  68
+
+
+(3) Discuss the following.
+(a) If you worked in a team, what were the major responsibilities
+    of each team member?
+    N/A
+
+(b) Did you complete the assignment?
+    Yes
+
+(c) What were your major strengths and weaknesses in doing this
+    assignment (individually or in a team)?
+    strengths: coordination, effort
+    weaknesses: getting stuck, bugs, etc.
+
+    If in a team, also discuss how your team worked together.
+    N/A
+
+(d) What  lessons did you learn from these events.
+    To not take 3 classes a quarter (not being fascetious, I would've loved to start this assignment much earlier)
+
+(e) If in a team, whether and how you plan to change the way
+    your work together .
+    N/A
+
+(f) Anything else that comes to mind.
+    This project was a little harder than the others just because we had to conceptualize a new algorithm, but actually quite enjoyable otherwise
+
