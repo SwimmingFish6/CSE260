@@ -1,3 +1,5 @@
+<img width="404" alt="hpc_ap" src="https://user-images.githubusercontent.com/13070236/38646673-bdad5db8-3d9d-11e8-8bcd-72676e4c6233.png">
+
 # Scaling Aliev-Panfilov Electro-Cardiac Simulation Using OpenMPI
 
 Optimized the Aliev-Panfilov
